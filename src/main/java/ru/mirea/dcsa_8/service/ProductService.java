@@ -5,7 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import ru.mirea.dcsa_8.dto.ProductDTO;
 import ru.mirea.dcsa_8.entity.ProductEntity;
-import ru.mirea.dcsa_8.mapper.ProductMapper;
 import ru.mirea.dcsa_8.repository.ProductRepository;
 
 import java.util.List;
@@ -15,7 +14,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductService {
     private final ProductRepository productRepository;
-    private final ProductMapper productMapper;
 
     public void createProduct(ProductDTO newProduct) {
         ProductEntity product = ProductEntity.builder()
