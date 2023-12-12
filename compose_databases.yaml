@@ -1,0 +1,6 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: product_service
+    ports:
+      - '27017:27017'
