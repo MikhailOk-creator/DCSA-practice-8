@@ -4,6 +4,7 @@ services:
     container_name: product_database
     ports:
       - '27017:27017'
+
   psql_product:
     container_name: order_database
     image: postgres:15-alpine
@@ -11,3 +12,11 @@ services:
       - "5432:5432"
     env_file:
       - db1.env
+
+  psql_inventory:
+    container_name: inventory_database
+    image: postgres:15-alpine
+    ports:
+      - "5433:5432"
+    env_file:
+      - db2.env
