@@ -1,6 +1,13 @@
 services:
   mongodb:
     image: mongo:6-jammy
-    container_name: product_service
+    container_name: product_database
     ports:
       - '27017:27017'
+  psql_product:
+    container_name: order_database
+    image: postgres:15-alpine
+    ports:
+      - "5432:5432"
+    env_file:
+      - db1.env
