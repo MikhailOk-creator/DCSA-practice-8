@@ -1,7 +1,7 @@
-package ru.mirea.dcsa_8.repository;
+package ru.mirea.productservice.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import ru.mirea.dcsa_8.entity.ProductEntity;
+import ru.mirea.productservice.entity.ProductEntity;
 
 public interface ProductRepository extends MongoRepository<ProductEntity, String> {
 }

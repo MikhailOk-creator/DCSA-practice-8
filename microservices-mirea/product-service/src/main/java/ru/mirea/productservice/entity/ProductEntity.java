@@ -1,4 +1,4 @@
-package ru.mirea.dcsa_8.entity;
+package ru.mirea.productservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

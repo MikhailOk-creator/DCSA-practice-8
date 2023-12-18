@@ -4,3 +4,9 @@ spring:
       host: localhost
       port: 27017
       database: product_service
+  application:
+    name: product-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,4 +1,4 @@
-package ru.mirea.dcsa_8.dto;
+package ru.mirea.productservice.dto;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

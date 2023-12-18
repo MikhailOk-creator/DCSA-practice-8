@@ -1,13 +1,13 @@
-package ru.mirea.dcsa_8;
+package ru.mirea.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Dcsa8Application {
+public class ProductServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Dcsa8Application.class, args);
+        SpringApplication.run(ProductServiceApplication.class, args);
     }
 
 }

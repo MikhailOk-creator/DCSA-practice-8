@@ -1,11 +1,11 @@
-package ru.mirea.dcsa_8.controller;
+package ru.mirea.productservice.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import ru.mirea.dcsa_8.dto.ProductDTO;
-import ru.mirea.dcsa_8.entity.ProductEntity;
-import ru.mirea.dcsa_8.service.ProductService;
+import ru.mirea.productservice.dto.ProductDTO;
+import ru.mirea.productservice.entity.ProductEntity;
+import ru.mirea.productservice.service.ProductService;
 
 import java.util.List;
 

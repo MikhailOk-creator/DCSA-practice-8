@@ -1,11 +1,11 @@
-package ru.mirea.dcsa_8.service;
+package ru.mirea.productservice.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.mirea.dcsa_8.dto.ProductDTO;
-import ru.mirea.dcsa_8.entity.ProductEntity;
-import ru.mirea.dcsa_8.repository.ProductRepository;
+import ru.mirea.productservice.dto.ProductDTO;
+import ru.mirea.productservice.entity.ProductEntity;
+import ru.mirea.productservice.repository.ProductRepository;
 
 import java.util.List;
 
